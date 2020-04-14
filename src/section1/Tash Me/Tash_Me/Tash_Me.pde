@@ -1,8 +1,17 @@
+PImage mustache;
+PImage friend;
 
-void setup() {
+void setup( ){
 
+mustache = loadImage(  "Spectral.jpeg");
+friend = loadImage("index.jpeg");
+size(800, 600);
+friend.resize(width,height);
+background(friend);  
 }
 
-void draw() {
+void draw() 
 
-}
+{ 
+image(mustache, 150, 400);
+}  
